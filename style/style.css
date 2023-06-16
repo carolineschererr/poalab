@@ -1,0 +1,122 @@
+.cabecalho {
+    background-color: #f6f6f6;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    margin: 0;
+}
+
+h1#poalab-title {
+    color: #35469d;
+    font-weight: bold;
+    background-color: #f6f6f6;
+}
+
+button#entrar-button {
+    color: white;
+    font-weight: bold;
+    background-color: #35469d;
+}
+
+.conteudo {
+    background-color: #f6f6f6;
+}
+
+h2#fabricacao-title {
+    color: #35469d;
+}
+
+.descricao-fabricacao {
+    color: #737373;
+}
+
+.cadastro-projeto {
+    color: white;
+    font-weight: bold;
+    background-color: #4f5b8d;
+    text-align: center;
+}
+
+h2#aberto-title {
+    color: #4f5b8d;
+}
+
+.descricao-aberto {
+    color: #737373;
+}
+
+h2#proposito-title {
+    color: #4f5b8d;
+}
+
+.descricao-proposito {
+    color: #737373;
+}
+
+h2#nossos-projetos-title {
+    color: white;
+    background-color: #4f5b8d;
+    text-align: center;
+}
+
+#projetos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.8%;
+}
+
+.box-image {
+    margin: 10px;
+    width: fit-content;
+}
+
+.title-project {
+    margin-bottom: 10px;
+}
+
+.box-image img {
+    width: 100%;
+}
+
+.title-project {
+    margin-bottom: 10px;
+}
+
+.box-image img {
+    width: 100%;
+}
+
+.title-project {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    background-color: #4f5b8d;
+}
+
+#rodape {
+    color: white;
+    background-color: #737373;
+    position: relative;
+    padding: 1.2%;
+}
+
+#logo-ifrs {
+    max-width: 7%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
