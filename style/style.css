@@ -1,4 +1,4 @@
-.cabecalho {
+body {
     background-color: #f6f6f6;
 }
 
@@ -8,73 +8,105 @@ h1 {
 
 h2 {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
 }
 
-img {
-    margin: 0;
+.cabecalho {
+    background-image: linear-gradient(to bottom, #737373, #303030);
+    display: flex;
+    align-items: center;
+}
+
+#logo-poalab{
+    max-width: 5%;
+    margin: 1%;
+    margin-right: 10px;
 }
 
 h1#poalab-title {
-    color: #35469d;
+    color: #fdfdfd;
     font-weight: bold;
-    background-color: #f6f6f6;
+    padding: 0.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button#entrar-button {
     color: white;
     font-weight: bold;
-    background-color: #35469d;
+    background-color: #00a23e;
 }
 
 .conteudo {
     background-color: #f6f6f6;
 }
 
+.show-image img {
+    max-width: 90%;
+    height: auto;
+}
+
 h2#fabricacao-title {
-    color: #35469d;
+    color: #00a23e;
+    padding: 2%;
 }
 
 .descricao-fabricacao {
     color: #737373;
+    margin: 5%;
 }
 
 .cadastro-projeto {
     color: white;
     font-weight: bold;
-    background-color: #4f5b8d;
+    background-image: linear-gradient(to bottom, #02f760, #00a23e);
     text-align: center;
+    padding: 2%;
 }
 
 h2#aberto-title {
-    color: #4f5b8d;
+    color: #00a23e;
+    padding: 2%;
 }
 
 .descricao-aberto {
     color: #737373;
+    margin: 5%;
 }
 
 h2#proposito-title {
-    color: #4f5b8d;
+    color: #00a23e;
+    padding: 2%;
 }
 
 .descricao-proposito {
     color: #737373;
+    margin: 5%;
 }
 
 h2#nossos-projetos-title {
     color: white;
-    background-color: #4f5b8d;
+    background-image: linear-gradient(to bottom, #02f760, #00a23e);
     text-align: center;
+    padding: 2%;
 }
 
 #projetos {
     display: flex;
     flex-wrap: wrap;
-    padding: 1.8%;
+    padding: 1%;
+    margin-left: 5%;
+    background-color: #f6f6f6;
 }
 
 .box-image {
@@ -103,12 +135,12 @@ h2#nossos-projetos-title {
     font-size: 18px;
     font-weight: bold;
     margin: 0;
-    background-color: #4f5b8d;
+    background-color: #00a23e;
 }
 
 #rodape {
     color: white;
-    background-color: #737373;
+    background-image: linear-gradient(to bottom, #737373, #303030);
     position: relative;
     padding: 1.2%;
 }
