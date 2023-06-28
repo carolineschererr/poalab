@@ -29,10 +29,14 @@ p {
     align-items: center;
 }
 
-#logo-poalab{
+#logo-poalab {
     max-width: 20%;
     margin: 1%;
     margin-right: 10px;
+}
+
+.timeline {
+    font-family: 'Work Sans', sans-serif;
 }
 
 button#entrar-button {
@@ -130,8 +134,7 @@ h2#nossos-projetos-title {
     font-weight: bold;
     margin: 0;
     background-color: #108acc;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
+
 }
 
 #rodape {
@@ -150,3 +153,69 @@ h2#nossos-projetos-title {
     bottom: 0;
     right: 0;
 }
+
+/*formatação da pirâmide */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    /* Cor de fundo do bloco */
+    margin: 5px;
+    /* Espaçamento entre os blocos */
+    transition: background-color 0.3s ease;
+    /* Efeito de transição ao passar o mouse */
+    cursor: pointer;
+}
+
+.block:hover {
+    background-color: #108acc;
+    /* Cor de fundo do bloco ao passar o mouse */
+}
+
+/*fim formatação pirâmide */
+
+/* formatação timeline */
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #000;
+}
+
+.timeline-content {
+    margin-left: 30px;
+}
+
+.timeline-date {
+    font-weight: bold;
+}
+
+.timeline-desc {
+    margin-top: 10px;
+}
+/* fim formatação timeline */
