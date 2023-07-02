@@ -1,18 +1,18 @@
 body {
     background-color: white;
-}
-
-h1 {
-    margin: 0;
-}
-
-h2 {
-    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-h3 {
+h1, h2 {
+    margin: 0;
+}
+
+h3#objetivo-title,
+h3#espaco-title,
+h3#proposito-title {
     font-family: 'Work Sans', sans-serif;
+    color: #108acc;
+    font-weight: bold;
 }
 
 p {
@@ -35,6 +35,24 @@ p {
     margin-right: 10px;
 }
 
+#image-maker {
+    position: relative;
+    display: inline-block;
+}
+
+#image-maker::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #108acc;
+    /* Define a cor de fundo como azul */
+    opacity: 0.7;
+    /* Define a opacidade da camada azul */
+}
+
 .timeline {
     font-family: 'Work Sans', sans-serif;
 }
@@ -54,7 +72,7 @@ button#entrar-button {
     height: auto;
 }
 
-h2#fabricacao-title {
+h2#fabricacao-title, h2#pq-title {
     color: #108acc;
     padding: 2%;
 }
@@ -68,6 +86,14 @@ h2#fabricacao-title {
     color: white;
     font-weight: bold;
     background-color: #108acc;
+    text-align: center;
+    padding: 2%;
+}
+
+.saiba-mais {
+    color: white;
+    font-weight: bold;
+    background-color: #6a329f;
     text-align: center;
     padding: 2%;
 }
@@ -110,6 +136,30 @@ h2#nossos-projetos-title {
 .box-image {
     margin: 10px;
     width: fit-content;
+}
+
+.box-text {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #cfe7f4;
+    border-radius: 2px;
+    background-color: #e7f3f9;
+}
+
+.box-text-2 {
+    background-color: #e7f3f9;
+    border: 1px solid #cfe7f4;
+    padding: 20px;
+    margin: 20px;
+}
+
+#box-poalab {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin-left: 5%;
 }
 
 .title-project {
@@ -169,7 +219,9 @@ h2#nossos-projetos-title {
 .block {
     width: 100px;
     height: 100px;
-    background-color: #ccc;
+    background-color: #d2c1e2;
+    border-radius: 2px;
+    border: 1px solid #999999;
     /* Cor de fundo do bloco */
     margin: 5px;
     /* Espaçamento entre os blocos */
@@ -218,4 +270,5 @@ h2#nossos-projetos-title {
 .timeline-desc {
     margin-top: 10px;
 }
+
 /* fim formatação timeline */
